@@ -40,7 +40,7 @@ jobs:
       - name: Rename APK
         run: |
           APK=$(find app/build/outputs/apk/release -name "*.apk" | head -n 1)
-          cp "$APK" app/build/outputs/apk/release/国际金融题库_v1.0.0.apk
+          cp "$APK" app/build/outputs/apk/release/国际金融题库_v1.1.0.apk
           echo "APK=$APK"
 
       - name: Upload APK
